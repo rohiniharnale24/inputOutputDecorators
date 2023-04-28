@@ -1,0 +1,50 @@
+<!-- <p>student-form works!</p> -->
+
+<div class="form-group">
+  <label for="fname">First Name</label>
+  <input
+    type="text"
+    [(ngModel)]="fnameVal"
+    name=""
+    #fnameValue
+    id="fname"
+    class="form-control"
+  />
+</div>
+<div class="form-group">
+  <label for="lname">Last Name</label>
+  <input
+    type="text"
+    [(ngModel)]="lnameVal"
+    name=""
+    id="lname"
+    class="form-control"
+  />
+</div>
+<div class="form-group">
+  <label for="email">Email</label>
+  <input
+    type="text"
+    [(ngModel)]="email"
+    name=""
+    id="email"
+    class="form-control"
+  />
+</div>
+<div class="form-group">
+  <label for="contact">Contact</label>
+  <input
+    type="text"
+    [(ngModel)]="contactVal"
+    name=""
+    id="contact"
+    class="form-control"
+  />
+</div>
+<div class="text-right">
+  <!-- <button class="btn btn-primary" (click)="getStudentsObj(fnameValue.value)"> -->
+  <!-- <button class="btn btn-primary" (click)="getStudentsObj(fnameValue)"> -->
+  <button class="btn btn-primary" (click)="getStudentsObj()">
+    Add Student
+  </button>
+</div>
