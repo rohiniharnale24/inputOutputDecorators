@@ -8,7 +8,7 @@ import { Istudents } from './model/array';
 })
 export class AppComponent {
   // title = 'inputOutputDecorators';
-
+  addProduct: number = 23;
   Stdarray: Istudents[] = [
     {
       fname: 'rohini',
